@@ -1,0 +1,71 @@
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        % Equilibrium Position
+        % Ground and frame
+        \draw[thick] (-1,5) -- (1,5); % Top bar
+        \draw[thick] (-1,5) -- (-1,0); % Side bar
+        
+        % Sensor
+        \draw[fill, pattern=north east lines] (0.5,5) rectangle (1,5.5);
+        
+        % Laser
+        \draw[red, thick] (0.75,5) -- (0.75,3.3); % Laser stopping at plate
+        
+        % Vertical x-axis with cut line (on the left)
+        \node[below, blue] at (-1.2,0) {$x$};
+        \draw[blue, thick, ->] (-1.2,5) -- (-1.2,0);
+        \node[left, blue] at (-1.2,3.31) {$0$};
+        \draw[blue, thick] (-1.25,3.31) -- (-1.15,3.31); % Cut mark for 0
+        \draw[blue, thin] (-1.2,3.308) -- (-0.8,3.308); % Cut line from x-axis to plate
+        
+        % Spring (equilibrium position, more loops)
+        \draw[decorate, decoration={coil,aspect=0.7,segment length=3.5mm,amplitude=3mm}] (0,5) -- (0,3.4);
+        \draw[thin] (0,3.4) -- (0,3.3); % Extended bottom vertical line
+        
+        % Thin plate attached to the spring (longer and fully above mass)
+        \draw[thick] (-0.8,3.3) rectangle (0.8,3.2); % Longer rectangle plate
+
+    \end{tikzpicture}
+    \hspace{1cm}
+    \begin{tikzpicture}
+        % Elongated Position
+        % Ground and frame
+        \draw[thick] (-1,5) -- (1,5); % Top bar
+        \draw[thick] (-1,5) -- (-1,0); % Side bar
+        
+        % Sensor
+        \draw[fill, pattern=north east lines] (0.5,5) rectangle (1,5.5);
+        
+        % Laser
+        \draw[red, thick] (0.75,5) -- (0.75,1.8); % Laser stopping at plate
+        
+        % Vertical x-axis with cut line (on the left)
+        \node[below, blue] at (-1.2,0) {$x$};
+        \draw[blue, thick, ->] (-1.2,5) -- (-1.2,0);
+        \node[left, blue] at (-1.2,1.8) {$x_1$};
+        \draw[blue, thick] (-1.25,1.81) -- (-1.15,1.81); % Cut mark for X1
+        \draw[blue, thin] (-1.2,1.81) -- (0,1.8); % Cut line from x-axis to plate
+        
+        % Spring (elongated position, more spaced loops, extended bottom part)
+        \draw[decorate, decoration={coil,aspect=0.7,segment length=5mm,amplitude=3mm}] (0,5) -- (0,2.2);
+        \draw[thick] (0,2.2) -- (0,1.8); % Extended bottom vertical line
+        
+        % Thin plate attached to the spring (longer and fully above mass)
+        \draw[thick] (-0.8,1.8) rectangle (0.8,1.7); % Longer rectangle plate
+        
+        % Mass (elongated position, moved lower)
+        \draw[thick] (-0.5,1.5) rectangle (0.5,1.0);
+        \node at (0,1.25) {$m_s$};
+        
+        % Gravity
+        \draw[->, teal, thick] (0,1.0) -- (0,0.3);
+        \node[right, teal] at (0,0.2) {$m_s \vec{g}$};
+        
+        % Spring force
+        \draw[->, teal, thick] (0,1.5) -- (0,2.3);
+        \node[left, teal] at (0,2.3) {$\vec{F_r}$};
+    \end{tikzpicture}
+    \caption{Position au repos et position allongée du système à l'équilibre.}
+\end{figure}
+\FloatBarrier

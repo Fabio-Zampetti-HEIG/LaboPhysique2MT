@@ -1,0 +1,100 @@
+\section{Expériences}
+    \subsection{Introduction}
+    Dans ce chapitre, nous allons définir et aborder toutes les notions théoriques nécessaires
+    pour chaque expérience, ainsi que les valeurs expérimentales mesurées et la discussion des résultats.
+
+    \subsection{Détermination de la constante de raideur du ressort}
+        \subsubsection{Objectif}
+            L'objectif de cette expérience est de déterminer la constante de raideur de trois ressorts
+            en utilisant la méthode de la régression linéaire.
+        \subsubsection{schéma du système}
+            Nous allons étudier un système composé d'un ressort, de plusieurs masses et d'un capteur CASSY.
+            \input{schema_exp.tex}
+            Nous pouvons voir à la figure 1 le schéma du système que nous allons étudier. On 
+            utilise un plateau permettant de refléter le laser partant du capteur CASSY.
+            Nous le calibrons pour qu'il soit à l'origine du repère, puis nous laissons
+            tomber le ressort avec la surcharge jusqu'à sa position d'équilibre.
+            Nous pouvons donc utiliser la seconde loi de Newton pour déterminer théoriquement
+            la constante de raideur du ressort : 
+            \begin{equation}
+                \sum \vec{F}_{ext} = m \vec{a}
+            \end{equation}
+            Dans le cas où le ressort est à l'équilibre, nous avons :
+            \begin{equation}
+                \sum \vec{F}_{ext} = \vec{0}
+            \end{equation}
+            Nous pouvons écrire la somme des forces comme suit :
+            \begin{equation}
+                \vec{F_r} + m_s\vec{g} = \vec{0}
+            \end{equation}
+            \begin{align*}
+                \Leftrightarrow & -k\Delta x \vec{e_x} + m_s g \vec{e_x} = 0 \\
+                \Leftrightarrow & \quad m_s g = k \Delta x \\
+                \Leftrightarrow & \quad k = \frac{m_s g}{\Delta x} \\
+                \Leftrightarrow & \quad k = \frac{m_s g}{x_1 - x_0}
+            \end{align*}
+            Nous avons que $x_0 = 0$, alors nous pouvons écrire :
+            \begin{equation}
+                k = \frac{m_s g}{x_1}
+            \end{equation}
+            Ou encore, nous pouvons (et nous allons) déterminer graphiquement la constante
+            de raideur du ressort en utilisant la pente de la droite obtenue
+            par la régression linéaire des points de la force en fonction de la position trouvée
+            experimentalement. Nous avons donc :
+            \begin{equation}
+                k = \frac{\Delta F_p}{\Delta x}
+            \end{equation}
+            Où $\Delta F_p$ est la différence entre les forces maximale et minimale,
+            et $\Delta x$ est la différence entre les positions maximale et minimale.
+            \newline
+            Nous avons donc tout ce qu'il nous faut pour déterminer la constante de raideur
+            du ressort.
+
+            \newpage
+
+        \subsubsection{valeurs expérimentales}
+            Nous avons effectué l'expérience avec trois ressorts différents et cinq surcharges
+            différentes pour chaque ressort. Nous avons mesuré les positions des ressorts à l'équilibre, ainsi que
+            les forces correspondantes. Nous avons obtenu les valeurs suivantes :
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=0.69\textwidth]{images/Capture.PNG}
+                \caption{Valeurs expérimentales de la force en fonction de la position des ressorts}
+            \end{figure}
+            \hspace{1cm}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=0.6\textwidth]{images/graphe_k.PNG}
+                \caption{Graphe de la force en fonction de la position des ressorts}
+            \end{figure}
+
+            \newpage
+
+            \begin{figure}[h]
+                \centering
+                \begin{minipage}{0.31\textwidth}
+                    \centering
+                    \includegraphics[width=0.77\linewidth]{images/res2.jpeg}
+                    \caption{Ressort 1}
+                \end{minipage}
+                \hfill
+                \begin{minipage}{0.32\textwidth}
+                    \centering
+                    \includegraphics[width=\linewidth]{images/res1.jpeg}
+                    \caption{Ressort 2}
+                \end{minipage}
+                \hfill
+                \begin{minipage}{0.32\textwidth}
+                    \centering
+                    \includegraphics[width=\linewidth]{images/res3.jpeg}
+                    \caption{Ressort 3}
+                \end{minipage}
+            \end{figure}
+        \subsubsection{Discussion des résultats}
+                    
+    
+
+
+    
+    
+        
