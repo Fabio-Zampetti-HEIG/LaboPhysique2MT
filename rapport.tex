@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{placeins}
+\usepackage{ragged2e}
+\usepackage{fancyhdr}
+\usepackage[headheight=2cm, headsep=0.5cm]{geometry}  % Move header up
+
+
+\usetikzlibrary{arrows, positioning, decorations.pathmorphing, patterns}
+\linespread{1.5}
+\justifying
+\setcounter{secnumdepth}{3}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{
+    \raisebox{-0.5cm}{\includegraphics[width=1.7cm]{images/HEIG_logo.png}} % Adjust vertical position
+    \hspace{0.5cm}
+    \raisebox{0.0cm}{\includegraphics[width=1.7cm]{images/HES_logo.png}}  % Adjust this if needed
+}
+\fancyhead[C]{\textbf{Rapport Laboratoire}}  % Center title
+\fancyhead[R]{Groupe 5}  % Right-aligned Date (or replace with name)
+\fancyfoot[C]{\thepage}
+
+
+\begin{document}
+    \title{Rapport de laboratoire}
+    \author{Auteur}
+    \date{Date}
+    \maketitle
+    \newpage
+    \tableofcontents
+    \include{theory}
+\end{document}
