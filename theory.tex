@@ -95,10 +95,147 @@
         \subsubsection{Objectif}
         
         \subsubsection{schéma du système}
+            \input{schema_exp.tex}
+            Nous remarquons que le schéma du système est le même que celui de l'expérience précédente.
+            Nous avons donc le même dispositif, mais cette fois-ci, nous allons laisser le ressort
+            osciller en lui donnant une amplitude initiale en l'étirant de $x_1$ (environ 1 à 2cm).
 
         \subsubsection{Notions théoriques}
+            Pour pouvoir déterminer la période d'un ressort, nous devons tout d'abord poser les équations
+            exprimée par la seconde loi de Newton. Nous avons donc :
+            \begin{equation}
+                \sum \vec{F}_{ext} = m \vec{a}
+            \end{equation}
+            Cette fois-ci, nous sommes en mouvement, donc nous avons une accélération non nulle.
+            Nous pouvons poser la somme des forces comme suit :
+            \begin{equation}
+                \vec{F_r} + m_s\vec{g} = m_s \vec{a}
+            \end{equation}
+            \begin{align*}
+                \Leftrightarrow & -kx \vec{e_x} + m_s g \vec{e_x} = m_s \ddot{x} \vec{e_x} \\
+                \Leftrightarrow & -kx + m_s g = m_s \ddot{x} \\
+                \Leftrightarrow & \ddot{x} + \frac{k}{m_s}x = g
+            \end{align*}
+            Nous avons une équation différentielle du second ordre, avec second membre non nul.
+            Cependant, comme nous avons poser l'origine du repère à la position d'équilibre du ressort + surcharge,
+            le terme $g$ disparaît. Nous avons donc une équation homogène du second ordre et ceci nous permet de
+            déterminer la période du ressort. Nous avons donc :
+            \begin{equation}
+                \ddot{x} + \frac{k}{m_s}x = 0
+            \end{equation}
+            La forme standard de l'équation différentielle pour une oscillation harmonique simple est défini comme suit :
+            \begin{equation}
+                \ddot{x} + \omega^2 x = 0
+            \end{equation}
+            Où $\omega = \sqrt{\frac{k}{m_s}}$ est la pulsation propre du ressort.
+            Nos conditions initiales sont $x(0) = x_1$ et $\dot{x}(0) = 0$.
+            Nous avons donc la solution générale de l'équation différentielle :
+            \begin{equation}
+                x(t) = x_1 \cos(\omega t)
+            \end{equation}
+            Nous préferons sous forme d'une sinusoïde, donc nous avons :
+            \begin{align*}
+                x(t) = x_1 \cos(\omega t) = x_1 \sin(\omega t + \frac{\pi}{2})
+            \end{align*}
+            et ce qui nous donne :
+            \begin{equation}
+                x(t) = x_1 \sin(\omega t + \phi)
+            \end{equation}
+            où $\frac{\pi}{2}$ est absorbé par la phase $\phi$. \\
+            Nous avons maintenant tout ce qu'il nous faut pour déterminer la période du ressort.
+            Nous pouvons finalement poser que la période est donnée par :
+            \begin{align*}
+                \omega = \frac{2\pi}{T}
+                \Leftrightarrow & T = \frac{2\pi}{\omega}
+            \end{align*}
+            et finalement :
+            \begin{equation}
+                T = 2\pi \sqrt{\frac{m_s}{k}}
+            \end{equation}
             
-                    
+            \newpage
+
+            Il nous est demandé de déterminer l'incertitude sur la période du ressort.
+            Nous savons que la formule pour détermination de l'incertitude d'une fonction quelconque de
+            la forme $f(x, y, z, ...)$ est donnée par sa différentielle totale, avec des valeurs absolues pour
+            chaque dérivée partielle, ce qui donne :
+            \begin{equation}
+                \Delta f(x, y, z, ...) = \left| \frac{\partial f}{\partial x} \right| \Delta x + \left| \frac{\partial f}{\partial y} \right| \Delta y + \left| \frac{\partial f}{\partial z} \right| \Delta z + ...
+            \end{equation}
+            Ici, la période est définie par $T(m_s, k) = 2\pi \sqrt{\frac{m_s}{k}}$, nous pouvons poser :
+            \begin{align*}
+                \Delta T = \left| \frac{\partial T}{\partial m_s} \right| \Delta m_s + \left| \frac{\partial T}{\partial k} \right| \Delta k
+            \end{align*}
+            ce qui nous donne :
+            \begin{equation}
+                \Delta T = \pi \frac{1}{\sqrt{m_s k}} \Delta m_s + \pi \frac{\sqrt{m_s}}{k^{3/2}} \Delta k
+            \end{equation}
+
+            
+        \subsection{Détermination de la pulsation d'un MHS}
+            \subsubsection{Objectif}
+                Pour cette seconde expérience, le but est, dans un premier temps, la détermination de la période d'oscillations. 
+                Suite à cela, nous identifierons l'amplitude et la phase du mouvement.
+    
+            \subsubsection{Schéma du système}
+    
+            \subsubsection{Notions théoriques}
+    
+            \subsubsection{Méthode}
+    
+            \subsubsection{Valeurs expérimentales}
+                
+            \subsubsection{Discussion des résultats}
+    
+        \subsection{Etude de MHS amorti}
+            \subsubsection{Objectif}
+                Pour cette troisième et dernière expérience, nous allons étudier le comportement d'un MHS amorti dans l'aire, dans l'eau et finalement dans un mélange eau-glycérine (rapport 1:4) 
+    
+            \subsubsection{Notions théoriques}
+                %blabla fabio
+            \subsubsection{Amorti dans l'air}
+                %hypothèse
+                Le but ici est de voir la façon dont un ressort s'amorti dans l'air, pour ensuite extraire l'amplitude de la courbe.
+                Nous pouvons nous attendre à décroissance linéaire de l'amplitude.
+    
+            \subsubsection{Schéma du système}
+    
+            \subsubsection{Méthode}
+    
+            \subsubsection{Valeurs expérimentales}
+    
+            \subsubsection{Constatations}
+                Nous pouvons, comme prédit, remarquer que l'amplitude décroit bel et bien de façon linéaire ! ETC.
+    
+            \subsubsection{Amorti dans l'eau}
+                %hypothèse
+                Ici, nous nous attendons également à une décroissance linéaire de l'amplitude.
+                Cependant, cette décroissance devrait être plus "forte", certaineement dû à la masse volumique du milieu plus élèvée que pour l'amorti dans l'air.
+                
+            \subsubsection{Schéma du système}
+    
+            \subsubsection{Méthode}
+    
+            \subsubsection{Valeurs expérimentales}
+    
+            \subsubsection{Constatations}
+    
+    
+            \subsubsection{Amorti dans un mélange eau-glycérine}
+                %hypothèse
+            \subsubsection{Schéma du système}
+    
+            \subsubsection{Méthode}
+    
+            \subsubsection{Valeurs expérimentales}
+    
+            \subsubsection{Constatations}
+    
+    
+            \subsubsection{Discussion des résultats}
+    
+        \subsection{Conclusion}
+                   
     
 
 
