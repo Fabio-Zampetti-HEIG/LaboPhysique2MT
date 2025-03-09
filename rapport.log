@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.2.26)  9 MAR 2025 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.2.26)  9 MAR 2025 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -508,7 +508,37 @@ File: images/res3.jpeg Graphic file (type jpg)
 <use images/res3.jpeg>
 Package pdftex.def Info: images/res3.jpeg  used on input line 89.
 (pdftex.def)             Requested size: 137.60461pt x 183.47308pt.
-)
+ (./schema_exp.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/HEIG_logo.png Graphic file (type png)
+<use images/HEIG_logo.png>
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 71.
+(pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
+File: images/HES_logo.png Graphic file (type png)
+<use images/HES_logo.png>
+Package pdftex.def Info: images/HES_logo.png  used on input line 71.
+(pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
+[6 <./images/res2.jpeg> <./images/res1.jpeg> <./images/res3.jpeg>])
+File: images/HEIG_logo.png Graphic file (type png)
+<use images/HEIG_logo.png>
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 125.
+(pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
+File: images/HES_logo.png Graphic file (type png)
+<use images/HES_logo.png>
+Package pdftex.def Info: images/HES_logo.png  used on input line 125.
+(pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
+ [7]
+File: images/HEIG_logo.png Graphic file (type png)
+<use images/HEIG_logo.png>
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 156.
+(pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
+File: images/HES_logo.png Graphic file (type png)
+<use images/HES_logo.png>
+Package pdftex.def Info: images/HES_logo.png  used on input line 156.
+(pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
+ [8])
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
 Package pdftex.def Info: images/HEIG_logo.png  used on input line 34.
@@ -517,20 +547,20 @@ File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
 Package pdftex.def Info: images/HES_logo.png  used on input line 34.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
- [6 <./images/res2.jpeg> <./images/res1.jpeg> <./images/res3.jpeg>] (./rapport.aux (./theory.aux)) ) 
+ [9] (./rapport.aux (./theory.aux)) ) 
 Here is how much of TeX's memory you used:
- 14580 strings out of 480247
- 307995 string characters out of 5896151
- 568462 words of memory out of 5000000
- 32254 multiletter control sequences out of 15000+600000
+ 14585 strings out of 480247
+ 308051 string characters out of 5896151
+ 570464 words of memory out of 5000000
+ 32257 multiletter control sequences out of 15000+600000
  474642 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  84i,17n,89p,452b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
- </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </home/fzaro/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </home/fzaro/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on rapport.pdf (6 pages, 690673 bytes).
+ </home/fzaro/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmmi5.600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </home/fzaro/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </home/fzaro/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
+Output written on rapport.pdf (9 pages, 706570 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 295 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
