@@ -1,38 +1,42 @@
-\contentsline {section}{\numberline {1}Expériences}{4}{}%
-\contentsline {subsection}{\numberline {1.1}Introduction}{4}{}%
-\contentsline {subsection}{\numberline {1.2}Détermination de la constante de raideur du ressort}{4}{}%
-\contentsline {subsubsection}{\numberline {1.2.1}Objectif}{4}{}%
-\contentsline {subsubsection}{\numberline {1.2.2}schéma du système}{4}{}%
-\contentsline {subsubsection}{\numberline {1.2.3}valeurs expérimentales}{6}{}%
-\contentsline {subsubsection}{\numberline {1.2.4}Discussion des résultats}{7}{}%
-\contentsline {subsection}{\numberline {1.3}Détermination de la période d'un ressort}{7}{}%
-\contentsline {subsubsection}{\numberline {1.3.1}Objectif}{7}{}%
-\contentsline {subsubsection}{\numberline {1.3.2}schéma du système}{7}{}%
-\contentsline {subsubsection}{\numberline {1.3.3}Notions théoriques}{8}{}%
-\contentsline {subsection}{\numberline {1.4}Détermination de la pulsation d'un MHS}{10}{}%
-\contentsline {subsubsection}{\numberline {1.4.1}Objectif}{10}{}%
-\contentsline {subsubsection}{\numberline {1.4.2}Schéma du système}{10}{}%
-\contentsline {subsubsection}{\numberline {1.4.3}Notions théoriques}{10}{}%
-\contentsline {subsubsection}{\numberline {1.4.4}Méthode}{10}{}%
-\contentsline {subsubsection}{\numberline {1.4.5}Valeurs expérimentales}{10}{}%
-\contentsline {subsubsection}{\numberline {1.4.6}Discussion des résultats}{10}{}%
-\contentsline {subsection}{\numberline {1.5}Etude de MHS amorti}{10}{}%
-\contentsline {subsubsection}{\numberline {1.5.1}Objectif}{10}{}%
-\contentsline {subsubsection}{\numberline {1.5.2}Notions théoriques}{11}{}%
-\contentsline {subsubsection}{\numberline {1.5.3}Amorti dans l'air}{11}{}%
-\contentsline {subsubsection}{\numberline {1.5.4}Schéma du système}{11}{}%
-\contentsline {subsubsection}{\numberline {1.5.5}Méthode}{11}{}%
-\contentsline {subsubsection}{\numberline {1.5.6}Valeurs expérimentales}{11}{}%
-\contentsline {subsubsection}{\numberline {1.5.7}Constatations}{11}{}%
-\contentsline {subsubsection}{\numberline {1.5.8}Amorti dans l'eau}{11}{}%
-\contentsline {subsubsection}{\numberline {1.5.9}Schéma du système}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.10}Méthode}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.11}Valeurs expérimentales}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.12}Constatations}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.13}Amorti dans un mélange eau-glycérine}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.14}Schéma du système}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.15}Méthode}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.16}Valeurs expérimentales}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.17}Constatations}{12}{}%
-\contentsline {subsubsection}{\numberline {1.5.18}Discussion des résultats}{12}{}%
-\contentsline {subsection}{\numberline {1.6}Conclusion}{12}{}%
+\contentsline {section}{\numberline {1}Introduction}{4}{}%
+\contentsline {subsection}{\numberline {1.1}Experience Constante de Raideur}{4}{}%
+\contentsline {subsection}{\numberline {1.2}Experience Mouvement Harmonique Sinusoïdal (MHS)}{4}{}%
+\contentsline {subsection}{\numberline {1.3}Experience Mouvement Harmonique Sinusoïdal Amortis (MHSA)}{4}{}%
+\contentsline {section}{\numberline {2}Expériences}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Introduction}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Détermination de la constante de raideur du ressort}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Objectif}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}schéma du système}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}valeurs expérimentales}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.4}Discussion des résultats}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Détermination de la période d'un ressort}{9}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Objectif}{9}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}schéma du système}{9}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Notions théoriques}{9}{}%
+\contentsline {subsection}{\numberline {2.4}Détermination de la pulsation d'un MHS}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Objectif}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Schéma du système}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}Notions théoriques}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.4}Méthode}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.5}Valeurs expérimentales}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.6}Discussion des résultats}{11}{}%
+\contentsline {subsection}{\numberline {2.5}Etude de MHS amorti}{11}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Objectif}{11}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}Notions théoriques}{12}{}%
+\contentsline {subsubsection}{\numberline {2.5.3}Amorti dans l'air}{12}{}%
+\contentsline {subsubsection}{\numberline {2.5.4}Schéma du système}{12}{}%
+\contentsline {subsubsection}{\numberline {2.5.5}Méthode}{12}{}%
+\contentsline {subsubsection}{\numberline {2.5.6}Valeurs expérimentales}{12}{}%
+\contentsline {subsubsection}{\numberline {2.5.7}Constatations}{12}{}%
+\contentsline {subsubsection}{\numberline {2.5.8}Amorti dans l'eau}{12}{}%
+\contentsline {subsubsection}{\numberline {2.5.9}Schéma du système}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.10}Méthode}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.11}Valeurs expérimentales}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.12}Constatations}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.13}Amorti dans un mélange eau-glycérine}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.14}Schéma du système}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.15}Méthode}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.16}Valeurs expérimentales}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.17}Constatations}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.18}Discussion des résultats}{13}{}%
+\contentsline {subsection}{\numberline {2.6}Conclusion}{13}{}%

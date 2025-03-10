@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.2.26)  9 MAR 2025 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.2.26)  10 MAR 2025 11:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/c/Users/rosvi/Documents/HEIG-VD/S2/Rapport/PHY/1.LaboE5/LaboPhysique2MT/rapport.tex
-(/mnt/c/Users/rosvi/Documents/HEIG-VD/S2/Rapport/PHY/1.LaboE5/LaboPhysique2MT/rapport.tex
+**/home/fzaro/heig/physique2/LaboPhysique2MT/rapport.tex
+(/home/fzaro/heig/physique2/LaboPhysique2MT/rapport.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -361,7 +361,7 @@ File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
 \l__pdf_internal_box=\box64
-) (./rapport.aux (./theory.aux))
+) (./rapport.aux (./intro.aux) (./theory.aux))
 \openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -460,134 +460,152 @@ File: images/HES_logo.png Graphic file (type png)
 Package pdftex.def Info: images/HES_logo.png  used on input line 34.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
  [3]
+\openout2 = `intro.aux'.
+
+ (./intro.tex)
+File: images/HEIG_logo.png Graphic file (type png)
+<use images/HEIG_logo.png>
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 34.
+(pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
+File: images/HES_logo.png Graphic file (type png)
+<use images/HES_logo.png>
+Package pdftex.def Info: images/HES_logo.png  used on input line 34.
+(pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
+ [4
+
+]
 \openout2 = `theory.aux'.
 
  (./theory.tex (./schema_exp.tex)
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 21.
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 22.
 (pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
 File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 21.
+Package pdftex.def Info: images/HES_logo.png  used on input line 22.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
- [4
+ [5
+
+
 
 ]
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 53.
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 56.
 (pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
 File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 53.
+Package pdftex.def Info: images/HES_logo.png  used on input line 56.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
- [5]
-<images/Capture.PNG, id=37, 1201.99063pt x 680.5425pt>
-File: images/Capture.PNG Graphic file (type png)
-<use images/Capture.PNG>
-Package pdftex.def Info: images/Capture.PNG  used on input line 61.
-(pdftex.def)             Requested size: 296.70424pt x 167.98567pt.
-<images/graphe_k.PNG, id=38, 937.5025pt x 652.4375pt>
+ [6]
+<images/tab_ressort.png, id=40, 391.4625pt x 225.84375pt>
+File: images/tab_ressort.png Graphic file (type png)
+<use images/tab_ressort.png>
+Package pdftex.def Info: images/tab_ressort.png  used on input line 65.
+(pdftex.def)             Requested size: 292.4pt x 168.70006pt.
+<images/graphe_k.PNG, id=41, 937.5025pt x 652.4375pt>
 File: images/graphe_k.PNG Graphic file (type png)
 <use images/graphe_k.PNG>
-Package pdftex.def Info: images/graphe_k.PNG  used on input line 67.
+Package pdftex.def Info: images/graphe_k.PNG  used on input line 71.
 (pdftex.def)             Requested size: 258.00539pt x 179.5453pt.
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 71.
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 75.
 (pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
 File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 71.
+Package pdftex.def Info: images/HES_logo.png  used on input line 75.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
- [6 <./images/Capture.PNG> <./images/graphe_k.PNG>]
-<images/res2.jpeg, id=44, 903.375pt x 1606.0pt>
+ [7 <./images/tab_ressort.png> <./images/graphe_k.PNG>]
+<images/res2.jpeg, id=48, 903.375pt x 1606.0pt>
 File: images/res2.jpeg Graphic file (type jpg)
 <use images/res2.jpeg>
-Package pdftex.def Info: images/res2.jpeg  used on input line 77.
+Package pdftex.def Info: images/res2.jpeg  used on input line 81.
 (pdftex.def)             Requested size: 102.64185pt x 182.46837pt.
-<images/res1.jpeg, id=45, 1204.5pt x 1606.0pt>
+<images/res1.jpeg, id=49, 1204.5pt x 1606.0pt>
 File: images/res1.jpeg Graphic file (type jpg)
 <use images/res1.jpeg>
-Package pdftex.def Info: images/res1.jpeg  used on input line 83.
+Package pdftex.def Info: images/res1.jpeg  used on input line 87.
 (pdftex.def)             Requested size: 137.60461pt x 183.47308pt.
-<images/res3.jpeg, id=46, 1204.5pt x 1606.0pt>
+<images/res3.jpeg, id=50, 1204.5pt x 1606.0pt>
 File: images/res3.jpeg Graphic file (type jpg)
 <use images/res3.jpeg>
-Package pdftex.def Info: images/res3.jpeg  used on input line 89.
+Package pdftex.def Info: images/res3.jpeg  used on input line 93.
 (pdftex.def)             Requested size: 137.60461pt x 183.47308pt.
- (./schema_exp.tex
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 98--104
 
+ []
+
+(./schema_exp.tex
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 71.
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 70.
 (pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
 File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 71.
+Package pdftex.def Info: images/HES_logo.png  used on input line 70.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
-[7 <./images/res2.jpeg> <./images/res1.jpeg> <./images/res3.jpeg>])
+ [8 <./images/res2.jpeg> <./images/res1.jpeg> <./images/res3.jpeg>])
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 125.
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 136.
 (pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
 File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 125.
-(pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
- [8]
-File: images/HEIG_logo.png Graphic file (type png)
-<use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 156.
-(pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
-File: images/HES_logo.png Graphic file (type png)
-<use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 156.
+Package pdftex.def Info: images/HES_logo.png  used on input line 136.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
  [9]
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 201.
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 174.
 (pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
 File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 201.
+Package pdftex.def Info: images/HES_logo.png  used on input line 174.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
- [10])
+ [10]
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 34.
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 219.
 (pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
 File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 34.
+Package pdftex.def Info: images/HES_logo.png  used on input line 219.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
- [11]
+ [11])
 File: images/HEIG_logo.png Graphic file (type png)
 <use images/HEIG_logo.png>
-Package pdftex.def Info: images/HEIG_logo.png  used on input line 34.
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 35.
 (pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
 File: images/HES_logo.png Graphic file (type png)
 <use images/HES_logo.png>
-Package pdftex.def Info: images/HES_logo.png  used on input line 34.
+Package pdftex.def Info: images/HES_logo.png  used on input line 35.
 (pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
- [12] (./rapport.aux (./theory.aux)) ) 
+ [12]
+File: images/HEIG_logo.png Graphic file (type png)
+<use images/HEIG_logo.png>
+Package pdftex.def Info: images/HEIG_logo.png  used on input line 35.
+(pdftex.def)             Requested size: 48.36958pt x 48.36952pt.
+File: images/HES_logo.png Graphic file (type png)
+<use images/HES_logo.png>
+Package pdftex.def Info: images/HES_logo.png  used on input line 35.
+(pdftex.def)             Requested size: 48.36958pt x 21.00644pt.
+ [13] (./rapport.aux (./intro.aux) (./theory.aux)) ) 
 Here is how much of TeX's memory you used:
- 14587 strings out of 480247
- 308169 string characters out of 5896106
- 570466 words of memory out of 5000000
- 32259 multiletter control sequences out of 15000+600000
+ 14615 strings out of 480247
+ 308744 string characters out of 5896151
+ 569722 words of memory out of 5000000
+ 32280 multiletter control sequences out of 15000+600000
  474642 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,17n,89p,486b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/rosv/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmmi5.600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </home/rosv/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </home/rosv/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on rapport.pdf (12 pages, 718597 bytes).
+ 84i,17n,89p,452b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/fzaro/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmmi5.600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </home/fzaro/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </home/fzaro/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
+Output written on rapport.pdf (13 pages, 649548 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 360 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

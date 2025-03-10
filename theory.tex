@@ -5,15 +5,18 @@
 
     \subsection{Détermination de la constante de raideur du ressort}
         \subsubsection{Objectif}
-            L'objectif de cette expérience est de déterminer la constante de raideur de trois ressorts
-            en utilisant la méthode de la régression linéaire.
+        L’objectif de cette expérience est de déterminer la constante de raideur de trois ressorts en utilisant 
+        la relation entre la force appliquée et l’allongement du ressort. Cette relation sera exploitée 
+        à l’aide de la méthode de régression linéaire, qui permet d’estimer la pente de la courbe Force-Déplacement avec précision.
         \subsubsection{schéma du système}
             Nous allons étudier un système composé d'un ressort, de plusieurs masses et d'un capteur CASSY.
             \input{schema_exp.tex}
-            Nous pouvons voir à la figure 1 le schéma du système que nous allons étudier. On 
-            utilise un plateau permettant de refléter le laser partant du capteur CASSY.
-            Nous le calibrons pour qu'il soit à l'origine du repère, puis nous laissons
-            tomber le ressort avec la surcharge jusqu'à sa position d'équilibre.
+            Nous pouvons voir à la figure 1 le schéma du système que nous allons étudier. Nous étudions 
+            un système composé d’un ressort suspendu, de plusieurs masses 
+            (les valeurs des masses sont introduites dans un tableau dans la section "valeurs expérimentales) et d’un 
+            capteur CASSY. 
+            Le capteur est calibré de manière à fixer l’origine du repère à la position initiale du ressort. 
+            Une surcharge est ensuite ajoutée progressivement, et la nouvelle position d’équilibre est enregistrée.
             Nous pouvons donc utiliser la seconde loi de Newton pour déterminer théoriquement
             la constante de raideur du ressort : 
             \begin{equation}
@@ -53,12 +56,13 @@
             \newpage
 
         \subsubsection{valeurs expérimentales}
-            Nous avons effectué l'expérience avec trois ressorts différents et cinq surcharges
-            différentes pour chaque ressort. Nous avons mesuré les positions des ressorts à l'équilibre, ainsi que
-            les forces correspondantes. Nous avons obtenu les valeurs suivantes :
+        Nous avons effectué l’expérience sur trois ressorts distincts, en appliquant cinq charges 
+        différentes sur chacun d’eux. Nous avons mesuré les positions d’équilibre des ressorts ainsi 
+        que les forces correspondantes. Les résultats obtenus sont répertoriés dans le tableau ci-dessous 
+        et analysés graphiquement dans la figure 3.
             \begin{figure}[h]
                 \centering
-                \includegraphics[width=0.69\textwidth]{images/Capture.PNG}
+                \includegraphics[width=0.68\textwidth]{images/tab_ressort.png}
                 \caption{Valeurs expérimentales de la force en fonction de la position des ressorts}
             \end{figure}
             \hspace{1cm}
@@ -91,6 +95,20 @@
                 \end{minipage}
             \end{figure}
         \subsubsection{Discussion des résultats}
+            Nous remarquons une croissance linéaire de la force en fonction de l'élongation où la pente
+            donne bien la constante de raideur du ressort. Ceci fait sens car la loi de Hooke stipule que la force
+            est proportionnelle à l'élongation du ressort. \\
+            Ce que nous ne pouvons pas voir directement sur le graphe est le comportement dans un cas extrême.
+            Par exemple, lorsque $\Delta x$ tend vers l'infini. En théorie, $k$ tendrait vers 0, ce qui pourrait indiquer 
+            une perte de l'élasticité du ressort. Par l'équation (5), on peut écrire ceci :\\
+            \begin{align*}
+                \lim_{\Delta x \to \infty} k = \lim_{\Delta x \to \infty} \frac{\Delta F_p}{\Delta x} = 0
+            \end{align*}
+            On peut supposer qu'à une certaine élongation, la constante de raideur du ressort devient quasi nulle. En pratique,
+            le ressort possède une limite d'élasticité, c'est-à-dire une élongation maximale avant de perdre ses propriétés élastiques.
+            Cela peut être dû à une déformation permanente du ressort, ou à une rupture de celui-ci. \\
+            Nous pouvons donc conclure que la constante de raideur du ressort est bien déterminée par la pente de la droite
+            obtenue par la régression linéaire des points de la force en fonction de la position trouvée expérimentalement.
     \subsection{Détermination de la période d'un ressort}
         \subsubsection{Objectif}
         
@@ -235,10 +253,3 @@
             \subsubsection{Discussion des résultats}
     
         \subsection{Conclusion}
-                   
-    
-
-
-    
-    
-        
